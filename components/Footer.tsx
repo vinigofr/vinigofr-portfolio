@@ -1,12 +1,9 @@
-import type { NextPage } from "next";
-import Link from "next/link";
+import type { NextPage } from 'next';
 
-const Footer: NextPage = () => {
-  return (
-    <footer>
-      Footer
-    </footer>
-  );
-};
+const Footer: NextPage = () => (
+  <footer>
+    Footer
+  </footer>
+);
 
 export default Footer;
