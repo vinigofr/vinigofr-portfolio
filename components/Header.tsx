@@ -4,9 +4,7 @@ import Link from 'next/link';
 const Project: NextPage = () => (
   <header data-testid="header">
     <div>
-      <div className="vinicius-logo">
-        {'<Vinicius Gouveia />'}
-      </div>
+      <div className="vinicius-logo">{'<Vinicius Gouveia />'}</div>
       <nav className="header-menu">
         <Link href="/">
           <a>Inicio</a>
