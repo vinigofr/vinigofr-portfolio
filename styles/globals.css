@@ -1,13 +1,22 @@
 html,
 body {
+  /* Para conseguir posicionar o background-image no fundo da página, eu consultei este tópico no stack over flow */
+  /* https://stackoverflow.com/questions/5383438/keeping-background-image-at-bottom */
+
+  /* Efeito de onda de: https://getwaves.io/ */
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #151616;
+  background-image: url("../images/wave.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
